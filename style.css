@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'mellony_dry_brushregular';
+    src: url('fonts/mellony-webfont.woff2') format('woff2'),
+         url('fonts/mellony-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.625;
+  margin: 0;
+  line-height: 2em;
+}
+.jumbotron {
+  background: url(img/header.jpg) no-repeat;
+  opacity: 0.8;
+  background-size: cover !important;
+  height: 600px;
+  border-bottom: 1px solid lightgrey;
+}
+.jumbotron img {
+  height: 25%;
+
+}
+.text-center h2 {
+  color: #fff;
+  text-shadow: 2px 2px 3px black;
+  font-family: 'mellony_dry_brushregular', sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.2;
+  top: 50%;
+  left: 50%;
+  margin-top: 15%;
+}
+#nav-header {
+  height: 15%;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px;
+  line-height: 1.42857143;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+.navbar-default .navbar-brand {
+  color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #000;
+}
+.img-thumbnail {
+  height: 250px;
+  width: 250px;
+}
+.offeringsPic {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  bottom: 0; left: 0; top: 0; right: 0;
+}
+.offeringsPic:hover .overlay {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.7);
+}
+.text {
+  color: black;
+  font-family: 'mellony_dry_brushregular', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  line-height: 1.2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 55px;
+  font-family: 'mellony_dry_brushregular', sans-serif;
+  font-weight: bold;
+}
+
+#about {
+  background: #edf4f4;
+  color: #333;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#about p {
+  padding-right: 10%;
+  padding-left: 10%;
+
+}
+.about-pic {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+  background-color: #edf4f4;
+}
+#contact {
+  margin-top: 5%;
+}
+footer {
+  margin-top: 10%;
+  background: #edf4f4;
+}
+.img-responsive {
+  height: 20%;
+  width: 20%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
