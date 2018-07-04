@@ -40,7 +40,6 @@ body {
 #nav-header {
   height: 15%;
 }
-
 .navbar {
   margin-bottom: 0;
   background-color: #fff;
@@ -50,6 +49,9 @@ body {
   line-height: 1.42857143;
   letter-spacing: 4px;
   border-radius: 0;
+}
+nav span {
+  color: black;
 }
 .navbar-default .navbar-brand {
   color: #000;
